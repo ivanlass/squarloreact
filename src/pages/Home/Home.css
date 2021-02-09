@@ -1,0 +1,65 @@
+.home {
+    background-image: linear-gradient(hsla(0,0%,100%,0),rgba(55,125,255,.075) 50%,hsla(0,0%,100%,0));
+    margin-top: 100px;
+}
+
+.label-bit-input {
+    font-size: 12px;
+}
+
+.card {
+    width: 130%;
+    border: none!important;
+    z-index: 2;
+    box-shadow: 0 12px 15px rgb(140 152 164 / 10%);
+
+}
+
+.input-big {
+    border: none!important;
+
+}
+
+
+.input-group-text {
+    background: white!important;
+    border: none!important;
+}
+
+
+.img-hero {
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    margin-top: 100px;
+}
+
+.img-wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    position: absolute;
+    right: 0px;
+    z-index: 0;
+    bottom: -60px;
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+    }
+
+    .input-wrapper {
+        margin-top: 0;
+    }
+  }

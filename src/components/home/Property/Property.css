@@ -1,0 +1,56 @@
+.property-thumbnail {
+    max-width: 340px;
+    height: 200px;
+    min-width: 300px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.property-info-wrapper {
+    max-width: 340px;
+    min-width: 300px;
+    padding: 5px;
+}
+
+.property-wrapper {
+    display: inline-block;
+    text-align: left;
+    margin: 40px 20px;
+}
+
+.property-purpose {
+    color: grey;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.propery-main-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-name {
+    color: rgb(44, 44, 44);
+    font-size: 20px;
+    word-break: break-all;
+}
+
+.property-price {
+    color: rgb(57, 57, 250);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.icons-wrapper {
+
+    font-size: 18px;
+    font-weight: 100;
+    color: #797979;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
