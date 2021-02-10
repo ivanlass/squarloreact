@@ -13,6 +13,7 @@ function Home() {
     <>
   <div className="home">
     <Container>
+      
       <Row>
         <Col sm={12} md={6}>
           <div className="input-wrapper">

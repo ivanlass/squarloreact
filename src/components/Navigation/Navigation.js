@@ -11,6 +11,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Mieter from '../../pages/Mieter/Mieter';
 
 function Navigation() {
   return (
@@ -40,7 +41,7 @@ function Navigation() {
         <h1>asd</h1>
       </Route>
       <Route path="/mieter">
-        <h1>asd</h1>
+        <Mieter />
       </Route>
       <Route path="/uberuns">
         <h1>aadsasd</h1>
